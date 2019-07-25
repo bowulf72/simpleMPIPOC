@@ -30,10 +30,11 @@
     },
     "masterImage": {
       "type": "string",
-      "defaultValue": "CentOS_7.2",
+      "defaultValue": "CentOS_7.5",
       "allowedValues": [
         "CentOS_6.7",
         "CentOS_7.2",
+        "CentOS_7.5",
         "RHEL_7.2"
       ],
       "metadata": {
@@ -42,7 +43,7 @@
     },
     "AnalyticsVMsku": {
       "type": "string",
-      "defaultValue": "Standard_H16",
+      "defaultValue": "Standard_HC44rs",
       "allowedValues": [
         "Standard_A8",
         "Standard_A9",
@@ -76,6 +77,8 @@
         "Standard_H16m",
         "Standard_H16r",
         "Standard_H16mr",
+        "Standard_HC44rs",
+        "Standard_HB60rs",
         "Standard_NC6",
         "Standard_NC12",
         "Standard_NC24",
@@ -124,6 +127,8 @@
         "Standard_H16m",
         "Standard_H16r",
         "Standard_H16mr",
+        "Standard_HC44rs",
+        "Standard_HB60rs",
         "Standard_NC6",
         "Standard_NC12",
         "Standard_NC24",
@@ -135,11 +140,13 @@
     },
     "computeNodeImage": {
       "type": "string",
-      "defaultValue": "CentOS-HPC_7.1",
+      "defaultValue": "CentOS-HPC_7.6",
       "allowedValues": [
         "CentOS_6.7",
         "CentOS_7.2",
         "CentOS-HPC_7.1",
+        "CentOS-HPC_7.3",
+        "CentOS-HPC_7.6",
         "RHEL_7.2"
       ],
       "metadata": {
