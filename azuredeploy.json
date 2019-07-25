@@ -534,8 +534,8 @@
         "capacity": "[parameters('computeNodeCount')]"
       },
       "dependsOn": [
-        "[concat('Microsoft.Network/virtualNetworks/', variables('virtualNetworkName'))]",
-        "[concat(variables('masterBoxName'), '/ext')]"
+        "[concat('Microsoft.Network/virtualNetworks/', variables('virtualNetworkName'))]"
+        
       ],
       "properties": {
         "overprovision": "true",
