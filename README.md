@@ -10,4 +10,6 @@ Does not provision any Public IP addresses, so there should either be a VPN conn
 Besides the admin user, it also provisions a user account on all of the machines with the name and password specified in the parameters. This user will have its home directory provisioned on the NFS server so that the .ssh directory will be shared among all the nodes enabling ssh connections between all of them.
 
 
-
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fbowulf72%2FsimpleMPIPOC%2Fmaster%2Fazuredeploy.json" target="_blank">
+    <img src="http://azuredeploy.net/deploybutton.png"/>
+</a>
